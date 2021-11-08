@@ -8,7 +8,7 @@ import pandas as pd
 from io import StringIO
 from datetime import date, time, datetime, timedelta
 from math import exp, log, sqrt, e
-import ECGanalysis.EEMD as EMD
+import ecg_analysis.EEMD as EMD
 
 def ShannonEn(data, bins=55, Min=0.3, Max=1.6, base=None):
 
